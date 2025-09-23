@@ -7,6 +7,30 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.page__title {
+  display: none !important;
+}
+
+.page__hero {
+  display: none !important;
+}
+
+.page__hero-caption {
+  display: none !important;
+}
+
+.page__content {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.archive {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+</style>
+
 <!-- About Me Section -->
 <section id="about">
 <h2>About Me</h2>
@@ -14,7 +38,6 @@ redirect_from:
 
 <p>Previously, I worked as a Senior Data Scientist at Tencent, where I led the data science for Tencent Games' Minors Protection program and developed the "Xinyue Mall" game item recommendation system. I also gained industry experience as a Machine Learning Engineer Intern at TikTok, optimizing their recommendation system.</p>
 
-[//]: # (<p><strong>Contact:</strong> &#40;412&#41; 926-8384 | ethanning@cmu.edu | <a href="https://linkedin.com/in/ethanning">LinkedIn</a></p>)
 </section>
 
 <!-- News Section -->
