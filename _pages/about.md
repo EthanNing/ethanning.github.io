@@ -30,7 +30,7 @@ redirect_from:
 <ul>
 <li><strong>2025.08</strong>: DeepResearchGym system exceeded 12 million search requests!</li>
 <li><strong>2025.05</strong>: Started Machine Learning Engineer Internship at TikTok Inc., San Jose</li>
-<li><strong>2025.04</strong>: Completed development of DeepResearchGym system, related paper uploaded to arXiv</li>
+<li><strong>2025.04</strong>: Completed DeepResearchGym system, related paper uploaded to arXiv</li>
 <li><strong>2024.12</strong>: Started working with Prof. Jamie Callan on Information Retrieval-related research</li>
 <li><strong>2024.08</strong>: Started Master's program at Carnegie Mellon School of Computer Science!</li>
 <li><strong>2024.06</strong>: Wrapped up the 3-year journey as Senior Data Scientist at Tencent</li>
