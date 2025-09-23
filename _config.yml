@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ethan‘s Homepage"
+title                    : "Ethan's Homepage"
 title_separator          : "-"
 name                     : &name "Jingjie (Ethan) Ning"
 description              : &description "personal description"
-url                      : "https://https://ethanning.github.io/" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "https://ethanning.github.io/" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://github.com/EthanNing/ethanning.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/ethanning/"
+  linkedin         : "ethanning"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
