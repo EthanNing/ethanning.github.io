@@ -127,14 +127,22 @@ section h3 {
   margin-top: 0.5em !important;
 }
 
-/* 减少section之间的间距 */
 section {
-  margin-bottom: 0.5em !important; /* 从3em减少到2em */
-  padding-top: 0.5em !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 2em !important;
 }
 
-/* 调整整体行高 */
+section:first-child {
+  margin-top: 0 !important;
+}
+
 section {
   line-height: 1.5 !important;
+}
+
+section h2 {
+  margin-top: 0.5em !important;
+  padding-top: 0 !important;
 }
 </style>
