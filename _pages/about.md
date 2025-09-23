@@ -55,15 +55,27 @@ redirect_from:
 <!-- Publications Section -->
 <section id="publications">
 <h2>📝 Publications</h2>
-<h3>Under Review</h3>
-<p><strong>DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research</strong><br>
-Coelho, J., <strong>Ning, J.</strong>, He, J., Mao, K., Paladugu, A., Setlur, P., ... & Xiong, C. (2025)<br>
-<em>Manuscript under review at NeurIPS 2025</em><br>
-<a href="https://arxiv.org/abs/2505.19253">arXiv:2505.19253</a></p>
 
-<h3>In Progress</h3>
-<p>Two additional papers on Search + LLM are in progress and expected to be submitted in Fall 2025.</p>
+<div class="publication-item">
+  <div class="publication-image">
+    <img src="/images/deepresearchgym.png" alt="DeepResearchGym">
+  </div>
+  <div class="publication-content">
+    <h3>DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research</h3>
+    <p class="authors">Coelho, J., <strong>Ning, J.</strong>, He, J., Mao, K., Paladugu, A., Setlur, P., ... & Xiong, C. (2025)</p>
+    <p class="venue"><em>Manuscript under review at ICLR 2025</em></p>
+    <p class="description">A unified framework for evaluating deep research with reproducible benchmarks and transparent evaluation metrics.</p>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2505.19253" class="btn btn-paper">paper</a>
+      <a href="https://github.com/cxcscmu/large-scale-embeddings" class="btn btn-code">code</a>
+      <a href="https://deepresearchgym.ai" class="btn btn-project">Gym URL</a>
+    </div>
+  </div>
+</div>
+
+
 </section>
+
 
 <!-- Education Section -->
 <section id="education">
@@ -145,4 +157,77 @@ section h2 {
   margin-top: 0.5em !important;
   padding-top: 0 !important;
 }
+/* Publications 布局样式 */
+.publication-item {
+  display: flex;
+  margin-bottom: 2em;
+  padding: 1em;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  gap: 1.5em;
+}
+
+.publication-image {
+  flex: 0 0 300px;
+}
+
+.publication-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+
+.authors {
+  margin-bottom: 0.3em;
+  color: #666;
+}
+
+.venue {
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
+.description {
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+.publication-links {
+  display: flex;
+  gap: 0.5em;
+}
+
+.btn {
+  padding: 0.3em 0.8em;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  border: 1px solid;
+}
+
+.btn-paper { background-color: #007acc; color: white; border-color: #007acc; }
+.btn-code { background-color: #28a745; color: white; border-color: #28a745; }
+.btn-project { background-color: #6f42c1; color: white; border-color: #6f42c1; }
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .publication-item {
+    flex-direction: column;
+  }
+  .publication-image {
+    flex: none;
+  }
+}
+
 </style>
+
