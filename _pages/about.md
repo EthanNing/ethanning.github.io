@@ -14,14 +14,15 @@ redirect_from:
 <!-- About Me Section -->
 <section id="about">
 <h2>About Me</h2>
-<p>I'm a second-year M.S. student in the Master of Computational Data Science (MCDS) at Language Technologies Institute (LTI) School of Computer Science (SCS), Carnegie Mellon University. I primarily conduct research with leading scholars in search and IR, <a href="https://www.cs.cmu.edu/~callan/">Prof. Jamie Callan</a> and <a href="https://www.cs.cmu.edu/~cx/">Prof. Chenyan Xiong</a>. My research is primarily focused on RAG systems and DeepResearch systems, with strong interests in Agents and LLM-based query understanding. I expect to have 2-3 new publications released in Fall 2025.</p>
+<p>I'm a second-year M.S. student in the Master of Computational Data Science (MCDS) at Language Technologies Institute (LTI), School of Computer Science (SCS), Carnegie Mellon University. I primarily conduct research with leading scholars in search and IR, <a href="https://www.cs.cmu.edu/~callan/">Prof. Jamie Callan</a> and <a href="https://www.cs.cmu.edu/~cx/">Prof. Chenyan Xiong</a>. My research focuses on <b>RAG systems</b> and <b>DeepResearch systems</b>, with strong interests in <b>Agents and LLM-based query understanding</b>. I expect to have 2–3 new publications released in Fall 2025.</p>
 
-<p>In summer 2025, I worked at TikTok Inc. as a Machine Learning Engineer Intern, where I optimized TikTok Shop's recommendation system fine-ranking stage. I enhanced semantic alignment through DIN module optimization and CLS self-attention embedding, achieving +3.75% lift in offline user-level AUC and improving online A/B test metrics (RPG@7 by +0.94%, RPG@14 by +1.12%). I also mitigated distributed training staleness through advanced concurrency scheduling, reducing average staleness from 261 to ~26.8 and boosting offline AUC by an additional +1.51%.</p>
+<p>In summer 2025, I worked at TikTok Inc. as a <b>Machine Learning Engineer Intern</b>, where I optimized TikTok Shop's recommendation system and improved both offline AUC and online A/B test performance through model and system enhancements.</p>
 
-<p>Prior to joining CMU, I worked as a Senior Data Scientist at Tencent for 3 years. I served as the data science lead of <a href="https://jiazhang.qq.com/">Tencent Games' Minors Protection program</a>, which won the Tencent Sustainable Social Value Award by protecting over 730K teenagers monthly from gaming addiction. I developed advanced risk scoring models and GNN systems, boosting precision from 2.3% to 8.9%, and led the development of the "Xinyue Mall" recommendation system from scratch, achieving 14.98% ARPU increase and driving ~$2.13M monthly revenue growth. I was recognized as a top performer with "Outstanding Employee" (top 10%) awards.</p>
+<p>Prior to joining CMU, I was a <b>Senior Data Scientist</b> at Tencent, leading projects in recommendation and risk modeling. My work contributed to large-scale user protection initiatives and revenue growth, and I was recognized as a top performer with multiple company awards.</p>
 
-<p>I'm expected to graduate in May 2026 and I'm seeking full-time opportunities in MLE/RS in 2026!</p>
+<p><b>I'm expected to graduate in May 2026 and I'm seeking full-time opportunities in MLE/RS in 2026!</b></p>
 </section>
+
 
 <!-- News Section -->
 <section id="news">
