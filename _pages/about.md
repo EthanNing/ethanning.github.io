@@ -66,8 +66,8 @@ redirect_from:
     <p class="venue"><em>Manuscript under review at ICLR 2025</em></p>
     <p class="description">A unified framework for evaluating deep research with reproducible benchmarks and transparent evaluation metrics.</p>
     <div class="publication-links">
-      <a href="https://arxiv.org/abs/2505.19253" class="btn btn-paper">paper</a>
-      <a href="https://github.com/cxcscmu/large-scale-embeddings" class="btn btn-code">code</a>
+      <a href="https://arxiv.org/abs/2505.19253" class="btn btn-paper">arXiv</a>
+      <a href="https://github.com/cxcscmu/large-scale-embeddings" class="btn btn-code">Github Repo</a>
       <a href="https://deepresearchgym.ai" class="btn btn-project">Gym URL</a>
     </div>
   </div>
