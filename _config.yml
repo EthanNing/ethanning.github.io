@@ -23,7 +23,7 @@ repository               : "https://github.com/EthanNing/ethanning.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Jingjie (Ethan) Ning 宁敬杰"
+  name             : "Jingjie Ning 宁敬杰"
   pronouns         : # example: "she/her"  
   bio              : "ML @ CMU | Ex Senior DS @ Tencent"
   location         : "Pittsburgh, PA"

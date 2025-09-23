@@ -107,21 +107,34 @@ Location: Hong Kong</p>
 </section>
 
 <style>
-/* Simple spacing for sections */
-section {
-  margin-bottom: 3em;
-  padding-top: 1em;
+/* 减少段落间距 */
+section p {
+  margin-bottom: 0.8em !important;
+  margin-top: 0.5em !important;
 }
 
-section h2 {
-  border-bottom: 2px solid #f2f3f3;
-  padding-bottom: 0.5em;
-  margin-bottom: 1em;
+section ul, section ol {
+  margin-bottom: 0.5em !important;
+  margin-top: 0.5em !important;
+}
+
+section li {
+  margin-bottom: 0.3em !important;
 }
 
 section h3 {
-  color: #494e52;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5em !important;
+  margin-top: 0.5em !important;
+}
+
+/* 减少section之间的间距 */
+section {
+  margin-bottom: 0.5em !important; /* 从3em减少到2em */
+  padding-top: 0.5em !important;
+}
+
+/* 调整整体行高 */
+section {
+  line-height: 1.5 !important;
 }
 </style>
