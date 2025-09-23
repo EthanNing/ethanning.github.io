@@ -1,49 +1,104 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jingjie (Ethan) Ning"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<!-- About Me Section -->
+<section id="about">
+<h2>About Me</h2>
+<p>I'm a Master's student in Computer Science (MCDS) at Carnegie Mellon University, expected to graduate in May 2026. I conduct research on query understanding and neural ranking at the intersection of large language models (LLMs) and information retrieval (IR), under the supervision of Prof. Jamie Callan.</p>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<p>Previously, I worked as a Senior Data Scientist at Tencent, where I led the data science for Tencent Games' Minors Protection program and developed the "Xinyue Mall" game item recommendation system. I also gained industry experience as a Machine Learning Engineer Intern at TikTok, optimizing their recommendation system.</p>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<p><strong>Contact:</strong> (412) 926-8384 | ethanning@cmu.edu | <a href="https://linkedin.com/in/ethanning">LinkedIn</a></p>
+</section>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<!-- News Section -->
+<section id="news">
+<h2>🔥 News</h2>
+<ul>
+<li><strong>2025.05</strong>: Started Machine Learning Engineer Internship at TikTok Inc., San Jose</li>
+<li><strong>2025.03</strong>: DeepResearchGym paper submitted to NeurIPS 2025 (under review)</li>
+<li><strong>2024.12</strong>: Started research on query understanding and neural ranking at CMU</li>
+<li><strong>2024.08</strong>: Started Master's program at Carnegie Mellon University</li>
+<li><strong>2024.06</strong>: Completed 3 years as Senior Data Scientist at Tencent</li>
+</ul>
+</section>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<!-- Publications Section -->
+<section id="publications">
+<h2>📝 Publications</h2>
+<h3>Under Review</h3>
+<p><strong>DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research</strong><br>
+Coelho, J., <strong>Ning, J.</strong>, He, J., Mao, K., Paladugu, A., Setlur, P., ... & Xiong, C. (2025)<br>
+<em>Manuscript under review at NeurIPS 2025</em><br>
+<a href="https://arxiv.org/abs/2505.19253">arXiv:2505.19253</a></p>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<h3>In Progress</h3>
+<p>Two additional papers on Search + LLM are in progress and expected to be submitted in Fall 2025.</p>
+</section>
 
-**Markdown generator**
+<!-- Education Section -->
+<section id="education">
+<h2>🎓 Education</h2>
+<h3>Carnegie Mellon University</h3>
+<p><strong>Master of Science in Computer Science (MCDS)</strong> | May 2026<br>
+Location: Pittsburgh, PA</p>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+<h3>The Chinese University of Hong Kong</h3>
+<p><strong>Double Degree of BSc Computer Science and BBA Business Analytics</strong> | Jun 2021<br>
+Location: Hong Kong</p>
+</section>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<!-- Career Section -->
+<section id="career">
+<h2>💼 Career</h2>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+<h3>Research Assistant | Carnegie Mellon University</h3>
+<p><strong>Dec 2024 – Present</strong> | Pittsburgh, PA</p>
+<ul>
+<li>Pursuing research on query understanding and neural ranking at the intersection of LLMs and IR</li>
+<li>Supervised by Prof. Jamie Callan (former SIGIR Chair)</li>
+<li>Focusing on optimizing RAG systems and query understanding via semantic decomposition</li>
+</ul>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<h3>Machine Learning Engineer Intern | TikTok Inc.</h3>
+<p><strong>May 2025 – Aug 2025</strong> | San Jose, CA</p>
+<ul>
+<li>Optimized fine-ranking stage of TikTok Shop's recommendation system</li>
+<li>Enhanced semantic alignment with +3.75% lift in offline user-level AUC</li>
+<li>Improved online A/B tests: RPG@7 by +0.94% and RPG@14 by +1.12%</li>
+</ul>
+
+<h3>Senior Data Scientist | Tencent</h3>
+<p><strong>Jul 2021 – Jun 2024</strong> | Shenzhen, China</p>
+<ul>
+<li>Led data science for Tencent Games' Minors Protection program (730K+ teenagers protected monthly)</li>
+<li>Developed "Xinyue Mall" recommendation system from scratch (14.98% ARPU increase, ~$2.13M monthly revenue)</li>
+<li>Recognized as top performer with multiple awards including "Outstanding Employee" (top 10%)</li>
+</ul>
+</section>
+
+<style>
+/* Simple spacing for sections */
+section {
+  margin-bottom: 3em;
+  padding-top: 1em;
+}
+
+section h2 {
+  border-bottom: 2px solid #f2f3f3;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+section h3 {
+  color: #494e52;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+</style>
