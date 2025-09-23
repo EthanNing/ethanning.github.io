@@ -7,6 +7,7 @@
     <list default="true" id="b88d5d78-d79a-457d-8bbf-07b1cc8a53dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tencent-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/tencent-logo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758640725285</updated>
       <workItem from="1758640726650" duration="5575000" />
-      <workItem from="1758653676234" duration="2470000" />
+      <workItem from="1758653676234" duration="2727000" />
     </task>
     <servers />
   </component>

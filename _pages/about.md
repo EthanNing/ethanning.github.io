@@ -62,35 +62,6 @@ redirect_from:
 </section>
 
 
-<!-- Education Section -->
-<section id="education">
-<h2>🎓 Education</h2>
-
-<div class="education-item">
-  <div class="education-logo">
-    <img src="/images/cmu-logo.png" alt="CMU Logo">
-  </div>
-  <div class="education-content">
-    <h3>Carnegie Mellon University</h3>
-    <p><strong>Master of Science in Computer Science (MCDS)</strong> | May 2026<br>
-    Location: Pittsburgh, PA</p>
-  </div>
-</div>
-
-<div class="education-item">
-  <div class="education-logo">
-    <img src="/images/cuhk-logo.png" alt="CUHK Logo">
-  </div>
-  <div class="education-content">
-    <h3>The Chinese University of Hong Kong</h3>
-    <p><strong>Double Degree of BSc Computer Science and BBA Business Analytics</strong> | Jun 2021<br>
-    Location: Hong Kong</p>
-  </div>
-</div>
-</section>
-
-
-
 <!-- Career Section -->
 <section id="career">
 <h2>💼 Career</h2>
@@ -138,6 +109,34 @@ redirect_from:
     <li>Developed "Xinyue Mall" recommendation system from scratch (14.98% ARPU increase, ~$2.13M monthly revenue)</li>
     <li>Recognized as top performer with multiple awards including "Outstanding Employee" (top 10%)</li>
     </ul>
+  </div>
+</div>
+</section>
+
+
+<!-- Education Section -->
+<section id="education">
+<h2>🎓 Education</h2>
+
+<div class="education-item">
+  <div class="education-logo">
+    <img src="/images/cmu-logo.png" alt="CMU Logo">
+  </div>
+  <div class="education-content">
+    <h3>Carnegie Mellon University</h3>
+    <p><strong>Master of Science in Computer Science (MCDS)</strong> | May 2026<br>
+    Location: Pittsburgh, PA</p>
+  </div>
+</div>
+
+<div class="education-item">
+  <div class="education-logo">
+    <img src="/images/cuhk-logo.png" alt="CUHK Logo">
+  </div>
+  <div class="education-content">
+    <h3>The Chinese University of Hong Kong</h3>
+    <p><strong>Double Degree of BSc Computer Science and BBA Business Analytics</strong> | Jun 2021<br>
+    Location: Hong Kong</p>
   </div>
 </div>
 </section>
