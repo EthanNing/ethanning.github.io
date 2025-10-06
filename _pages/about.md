@@ -28,6 +28,7 @@ redirect_from:
 <section id="news">
 <h2>🔥 News</h2>
 <ul>
+<li><strong>2025.10</strong>: New publication "Less LLM, More Documents" uploaded to arXiv</li>
 <li><strong>2025.08</strong>: DeepResearchGym system exceeded 12 million search requests!</li>
 <li><strong>2025.05</strong>: Started Machine Learning Engineer Internship at TikTok Inc., San Jose</li>
 <li><strong>2025.04</strong>: Completed DeepResearchGym system, related paper uploaded to arXiv</li>
@@ -45,12 +46,27 @@ redirect_from:
 
 <div class="publication-item">
   <div class="publication-image">
+    <img src="/images/less-llm-more-docs.png" alt="Less LLM More Documents">
+  </div>
+  <div class="publication-content">
+    <h3>Less LLM, More Documents: Searching for Improved RAG</h3>
+    <p class="authors"><strong>Ning, J.*</strong>, Kong, Y.*, Long, Y.*, & Callan, J. (2025)</p>
+    <p class="venue"><em>Manuscript under review at ECIR 2026</em></p>
+    <p class="description">Investigating the trade-offs between retriever corpus size and generator complexity for improved RAG performance.</p>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2510.02657" class="btn btn-paper">arXiv</a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-image">
     <img src="/images/deepresearchgym.png" alt="DeepResearchGym">
   </div>
   <div class="publication-content">
     <h3>DeepResearchGym: A Free, Transparent, and Reproducible Evaluation Sandbox for Deep Research</h3>
     <p class="authors">Coelho, J., <strong>Ning, J.</strong>, He, J., Mao, K., Paladugu, A., Setlur, P., ... & Xiong, C. (2025)</p>
-    <p class="venue"><em>Manuscript under review at ICLR 2025</em></p>
+    <p class="venue"><em>Manuscript under review at ICLR 2026</em></p>
     <p class="description">A unified framework for evaluating deep research with reproducible benchmarks and transparent evaluation metrics.</p>
     <div class="publication-links">
       <a href="https://arxiv.org/abs/2505.19253" class="btn btn-paper">arXiv</a>
