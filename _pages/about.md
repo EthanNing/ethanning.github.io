@@ -46,12 +46,43 @@ redirect_from:
 
 <div class="publication-item">
   <div class="publication-image">
+    <img src="/images/agentic-search.png" alt="Agentic Search in the Wild">
+  </div>
+  <div class="publication-content">
+    <h3>Agentic Search in the Wild: Intents and Trajectory Dynamics from 14M+ Real Search Requests</h3>
+    <p class="authors"><strong>Ning, J.</strong>, Coelho, J., Kong, Y., Long, Y., ... Callan, J., & Xiong, C. (2025)</p>
+    <p class="venue"><em>Manuscript under review at SIGIR 2026</em></p>
+    <p class="description">Analyzing large-scale agentic search logs with LLM intent/reformulation labels and CTAR to quantify cross-step evidence-driven query term adoption.</p>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2601.17617" class="btn btn-paper">arXiv</a>
+      <a href="https://huggingface.co/datasets/cx-cmu/deepresearchgym-agentic-search-logs" class="btn btn-huggingface">HuggingFace</a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-image">
+    <img src="/images/gpcr-filter.png" alt="GPCR-Filter">
+  </div>
+  <div class="publication-content">
+    <h3>GPCR-Filter: a deep learning framework for efficient and precise GPCR modulator discovery</h3>
+    <p class="authors"><strong>Ning, J.</strong>, Shen, X., Hou, L., Shen, S., ... Xu, H. E., & He, X. (2025)</p>
+    <p class="venue"></p>
+    <p class="description">Developing GPCR-Filter, an ESM-3 + ligand-GNN fusion model trained on 90K+ validated GPCR–ligand pairs to predict functional modulation and discover novel GPCR agonists beyond binding affinity.</p>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2601.19149" class="btn btn-paper">arXiv</a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-image">
     <img src="/images/less-llm-more-docs.png" alt="Less LLM More Documents">
   </div>
   <div class="publication-content">
     <h3>Less LLM, More Documents: Searching for Improved RAG</h3>
     <p class="authors"><strong>Ning, J.*</strong>, Kong, Y.*, Long, Y.*, & Callan, J. (2025)</p>
-    <p class="venue"><em>Manuscript under review at ECIR 2026</em></p>
+    <p class="venue"><em>In proceedings of ECIR 2026</em></p>
     <p class="description">Investigating the trade-offs between retriever corpus size and generator complexity for improved RAG performance.</p>
     <div class="publication-links">
       <a href="https://arxiv.org/abs/2510.02657" class="btn btn-paper">arXiv</a>
@@ -351,6 +382,11 @@ section h2 {
 .btn-paper { background-color: #007acc; color: white; border-color: #007acc; }
 .btn-code { background-color: #28a745; color: white; border-color: #28a745; }
 .btn-project { background-color: #6f42c1; color: white; border-color: #6f42c1; }
+.btn-huggingface { 
+  background-color: #ff9d00; 
+  color: white; 
+  border-color: #ff9d00; 
+}
 
 /* 响应式设计 */
 @media (max-width: 768px) {
