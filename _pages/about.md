@@ -334,6 +334,9 @@ section h2 {
 
 .publication-image {
   flex: 0 0 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .publication-image img {
