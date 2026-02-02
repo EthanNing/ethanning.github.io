@@ -50,7 +50,7 @@ redirect_from:
   </div>
   <div class="publication-content">
     <h3>Agentic Search in the Wild: Intents and Trajectory Dynamics from 14M+ Real Search Requests</h3>
-    <p class="authors"><strong>Ning, J.</strong>, Coelho, J., Kong, Y., Long, Y., ... Callan, J., & Xiong, C. (2025)</p>
+    <p class="authors"><strong>Ning, J.</strong>, Coelho, J., Kong, Y., Long, Y., ... Callan, J., & Xiong, C. (2026)</p>
     <p class="venue"><em>Manuscript under review at SIGIR 2026</em></p>
     <p class="description">Analyzing large-scale agentic search logs with LLM intent/reformulation labels and CTAR to quantify cross-step evidence-driven query term adoption.</p>
     <div class="publication-links">
@@ -66,7 +66,7 @@ redirect_from:
   </div>
   <div class="publication-content">
     <h3>GPCR-Filter: a deep learning framework for efficient and precise GPCR modulator discovery</h3>
-    <p class="authors"><strong>Ning, J.</strong>, Shen, X., Hou, L., Shen, S., ... Xu, H. E., & He, X. (2025)</p>
+    <p class="authors"><strong>Ning, J.</strong>, Shen, X., Hou, L., Shen, S., ... Xu, H. E., & He, X. (2026)</p>
     <p class="venue"></p>
     <p class="description">Developing GPCR-Filter, an ESM-3 + ligand-GNN fusion model trained on 90K+ validated GPCR–ligand pairs to predict functional modulation and discover novel GPCR agonists beyond binding affinity.</p>
     <div class="publication-links">
@@ -86,6 +86,7 @@ redirect_from:
     <p class="description">Investigating the trade-offs between retriever corpus size and generator complexity for improved RAG performance.</p>
     <div class="publication-links">
       <a href="https://arxiv.org/abs/2510.02657" class="btn btn-paper">arXiv</a>
+      <a href="https://github.com/EthanNing/Less-LLM-More-Documents" class="btn btn-code">Github Repo</a>
     </div>
   </div>
 </div>
